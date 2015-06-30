@@ -1,7 +1,5 @@
 //-----------//
 // Directives
-
-
 weatherApp.directive("weatherResults", function() {
     return {
         restrict: "E",
