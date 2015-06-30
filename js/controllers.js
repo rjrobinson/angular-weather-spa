@@ -1,7 +1,7 @@
 //-------------//
-// Controllers
+// CONTROLLERS
 
-// -- CONTROLLER :: HOME
+//:: HOME
 weatherApp.controller('homeController', ['$scope', '$location',
     'cityService',
     function($scope, $location, cityService) {
@@ -19,7 +19,7 @@ weatherApp.controller('homeController', ['$scope', '$location',
     }
 ])
 
-// -- CONTROLLER :: FORECAST
+//:: FORECAST
 weatherApp.controller('forecastController', ['$scope', '$routeParams',
     'cityService', 'weatherService',
     function($scope, $routeParams, cityService, weatherService) {
